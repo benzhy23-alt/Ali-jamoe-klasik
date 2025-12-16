@@ -1,2 +1,68 @@
 # Ali-jamoe-klasik
 KEDAI MINUMAN REMPAH SEHAT
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Jamu Klasik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f6f3ee;
+      color: #3a2f1c;
+    }
+    header {
+      background: #7a4a1c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .produk {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .order {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    button {
+      background: #7a4a1c;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #5e3815;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ede6dc;
+      font-size:
